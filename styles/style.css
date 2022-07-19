@@ -4,5 +4,85 @@
 /* utilities */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #aaa;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    width: 1154px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #ffff;
+
+}
+
+
+
+/* hero styles */
+.hero-area {
+    display: flex;
+    margin-bottom: 237px;
+}
+
+.hero-desc {
+    margin-top: 10em;
+}
+
+.hero-desc h1 {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.hero-desc p {
+    width: 80%;
+    font-size: 16px;
+}
+
+.hero-desc .btn {
+    margin-top: 26px;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 98px;
+    width: 196px;
+    height: 44px;
+    background-color: #E02C6D;
+
+}
+
+.hero-img img {
+    background-image: url(/images/Circle-design.svg);
+}
+
+/* hero area styles end *
+
+/* --------
+brands------
+------ */
+.brands {
+    margin-bottom: 270px;
+}
+
+.all-brands .brand {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    column-gap: 60px;
+    margin-top: 35px;
+}
+
+.card {
+    height: 110px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #e9e9e9;
 }
