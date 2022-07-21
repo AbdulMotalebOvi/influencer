@@ -395,7 +395,7 @@ Mobile view-----
 
     .all-brands .brand {
         margin-top: 60px;
-        column-gap: 50px;
+        column-gap: 39px;
         margin-left: 10px;
         grid-template-columns: repeat(3, 1fr);
 
